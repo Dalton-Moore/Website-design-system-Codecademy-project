@@ -101,7 +101,7 @@ main h2 {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    background-color: hsl(0, 55%, 38%);
+    background-color: hsl(0, 0%, 75%);
     padding: 1rem;
     gap: 1rem;
     border-top-left-radius: 1.5rem;
@@ -125,7 +125,7 @@ main h2 {
 #boldp,
 #italicp {
     font-family: 'Poppins';
-    font-size: 1rem;
+    font-size: .8rem;
 }
 
 #normalp {
@@ -147,6 +147,7 @@ main h2 {
 #bolda,
 italica {
     font-family: 'Alice';
+    font-size: 1rem;
 }
 
 #normala {
@@ -163,4 +164,63 @@ italica {
 
 /* Karla Font */
 
-#karla
+#karla,
+#normalk,
+#boldk,
+#italick {
+    font-family: 'Karla';
+}
+
+#normalk {
+    font-style: normal;
+}
+
+#boldk {
+    font-weight: bold;
+}
+
+#italick {
+    font-style: italic;
+}
+
+/* Text Styles */
+
+.text-styling {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: hsl(0, 21%, 42%);
+    padding: 1rem;
+    gap: 1rem;
+    border-top-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+    border-bottom-left-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+}
+
+.text-display {
+    width: 16rem;
+    height: 18rem;
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-items: center;
+}
+
+#main {
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 26px;
+}
+
+#sub {
+    font-family: 'Alice';
+    font-weight: 500;
+    font-size: 18px;
+}
+
+#para {
+    font-family: 'Karla';
+    font-weight: 400;
+    font-size: 14px;
+}
